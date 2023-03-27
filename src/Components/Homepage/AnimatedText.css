@@ -1,0 +1,14 @@
+.AnimatedTextContainer{
+    @apply flex justify-center items-center w-full bg-[#1D2229] py-2 overflow-hidden
+    md:py-3
+}
+.TextAnimate{
+    font-family: 'Inter';
+    @apply text-white text-base font-semibold uppercase tracking-widest
+    sm:text-lg
+    md:text-3xl
+    xl:text-5xl
+}
+.TextAnimate span{
+    @apply text-[#A1F65E]
+}

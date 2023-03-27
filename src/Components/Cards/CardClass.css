@@ -1,0 +1,27 @@
+.CardClassContainer{
+    @apply flex flex-col items-center justify-center w-[22em] py-4
+    lg:w-[18em]
+    xl:w-[22em]
+}
+.CardClassImg{
+    @apply w-full object-cover
+}
+.CardClassInf{
+    @apply flex flex-col w-full mt-2 items-start
+}
+.CardClassTitle{
+    font-family: 'Inter';
+    @apply text-xl font-bold text-[#1C2129]
+    lg:text-lg
+    xl:text-xl
+}
+
+.CardClassDesc{
+    font-family: 'Lato';
+    @apply text-base text-[#6A6A6A] text-start font-medium
+    lg:text-sm
+    xl:text-base
+}
+.CardClassLink{
+    @apply text-[#524FF5] text-sm font-semibold tracking-wide mt-1
+}

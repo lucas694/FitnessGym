@@ -1,0 +1,16 @@
+.BtnBase{
+    @apply px-8 py-3.5 text-base font-medium
+    w-full h-auto flex flex-row items-center justify-center
+    transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105
+    md:w-auto
+}
+.BtnGreen{
+    @apply bg-[#A1F65E] text-[#1F242C] border-[#A1F65E] font-semibold border
+     hover:bg-[#1F242C] hover:text-[#A1F65E]
+}
+.BtnTransparent{
+    @apply bg-transparent text-[#ffffff] font-semibold border-[#ffffff] border
+}
+.BtnBlack{
+    @apply bg-[#1F242C] text-[#ffffff] font-semibold
+}
