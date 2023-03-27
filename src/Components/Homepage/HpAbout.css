@@ -1,0 +1,64 @@
+.HpAboutContainer{
+    @apply flex flex-col w-full py-10 items-center justify-center
+    md:py-20
+}
+.HpAboutContent{
+    @apply flex flex-col w-full items-center justify-center px-6
+    md:flex-row md:w-[80%] md:px-0
+}
+.HpAboutLeft{
+    @apply flex flex-col w-full
+    md:w-[70%]
+    xl:w-[60%]
+    xl:w-1/2
+}
+.HpAboutRight{
+    @apply flex flex-col w-full items-center justify-center
+    md:w-1/2
+}
+.HpAboutLeftMain{
+    @apply flex flex-col w-full items-start justify-center
+    md:w-[90%]
+    xl:w-[70%]
+}
+.HpAboutSubtitle{
+    @apply text-base font-bold text-[#524FF5] tracking-widest uppercase
+}
+.HpAboutTitle{
+    font-family: 'Inter';
+    @apply text-3xl font-bold text-[#1C2129]
+}
+.HpAboutDesc{
+    font-family: 'Lato';
+    @apply text-base font-medium text-[#6A6A6A] mt-4
+}
+.AboutHpImg{
+    @apply w-[100%] mt-10
+    sm:w-[80%]
+    md:w-[100%] md:mt-0
+    xl:w-[70%]
+}
+.HpAboutCard{
+    @apply flex flex-col w-full items-center mt-8  justify-between
+    sm:flex-row sm:h-[8em]
+}
+.AboutHpCardTitle{
+    font-family: 'Inter';
+    @apply text-xl font-bold text-[#1C2129]
+}
+.AboutHpCardDesc{
+    font-family: 'Lato';
+    @apply text-base font-medium text-[#6A6A6A] mt-1
+}
+.HpAboutCardLeft{
+    @apply flex flex-col w-full items-start justify-center
+    sm:w-1/2
+}
+.HpAboutCardRight{
+    @apply flex flex-col w-full items-start justify-center
+    sm:w-1/2
+}
+.AboutHpCard1Img{
+    @apply w-full h-[8em] object-cover rounded-md my-2
+    sm:w-[12em] sm:h-[8em] sm:my-0
+}

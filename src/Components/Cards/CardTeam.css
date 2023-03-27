@@ -1,0 +1,36 @@
+.CardTeamContainer{
+    @apply flex flex-col items-center justify-center w-[20rem] mt-4
+}
+.CardTeamImg{
+    @apply w-auto h-auto object-cover
+}
+.CardTeamInfs{
+    @apply flex flex-col w-full bg-[#1B2129] p-6
+}
+.CardTeamInfs section{
+    @apply flex flex-row justify-between items-center w-full
+
+}
+.CardTeamTitle{
+    font-family: 'Inter';
+    @apply text-base font-medium text-[#FFFFFF]
+}
+.Stars{
+    @apply w-[1.8rem] h-[1.8rem]
+}
+.CardTeamHr{
+    @apply w-full border-[#49505A] my-2
+}
+.CardTeamSpec{
+    @apply flex flex-col w-full items-start
+}
+.CardTeamDesc{
+    font-family: 'Lato', sans-serif;
+    @apply text-sm font-medium text-[#858585]
+}
+.CardTeamSocial{
+    @apply flex flex-row items-start w-full mt-6 space-x-2.5
+}
+.CardTeamIcon{
+    @apply w-5 h-5 fill-white cursor-pointer
+}

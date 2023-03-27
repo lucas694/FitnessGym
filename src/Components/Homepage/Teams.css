@@ -1,0 +1,19 @@
+.TeamsContainer{
+    @apply flex flex-col items-center justify-center w-full py-10
+}
+.TeamsSubTitle{
+    @apply text-base font-semibold text-[#524FF5] tracking-widest uppercase
+}
+.TeamsTitle{
+    font-family: 'Inter';
+    @apply text-3xl font-bold text-[#1C2129] mb-4
+    md:mb-0
+}
+.TeamsCardsContent{
+    @apply flex flex-col items-center justify-center w-full mt-6 flex-wrap
+    md:flex-row md:justify-between md:mt-10
+    md:w-[80%]
+    lg:w-[95%]
+    xl:w-[80%]
+    2xl:w-[65%]
+}
