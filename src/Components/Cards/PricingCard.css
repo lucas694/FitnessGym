@@ -1,0 +1,54 @@
+.PricingCardContainer{
+    @apply flex flex-col justify-center items-center w-[22rem] shadow-lg  p-6
+}
+/*header*/
+.PricingCardHeader{
+    @apply flex flex-col items-center justify-center w-full
+}
+.PricingCardHeader section{
+    @apply flex flex-row items-center justify-start w-full
+}
+
+.PricingCardTitle{
+    font-family: 'Inter';
+    @apply text-2xl font-bold text-black
+}
+.PricingCardIcon{
+    @apply w-9 h-9 mr-2
+}
+/*Price*/
+.PricingHeaderPricing{
+    @apply flex flex-col items-center justify-center w-full mt-10
+}
+.PricingCardPrice{
+    font-family: 'Inter';
+    @apply text-2xl font-semibold text-black mb-1
+}
+.PricingCardBenefit{
+    font-family: 'Inter';
+    @apply text-base font-medium text-black py-1
+}
+.PricingCardMonstPopular{
+    font-family: 'Inter';
+    @apply text-base font-semibold text-black bg-[#A1F65E] py-1 px-3
+}
+
+/*Features*/
+
+.PricingFeatures{
+    @apply flex flex-col items-center justify-center w-full mt-10
+}
+.PricingLiFirst{
+    @apply text-base font-semibold text-[#524FF5]
+}
+.PricingLi{
+    @apply text-base font-semibold text-[#6A6A6A] mt-2
+}
+
+.PricingCardButton{
+    @apply bg-[#1B2129] text-white font-semibold text-base py-3 px-8 mt-10
+    transition-all duration-300 ease-in-out  hover:-translate-y-1 hover:scale-110
+}
+.PricingCardContainer:hover .PricingCardButton {
+    @apply bg-[#FFFFFF] border border-[#1B2129] text-[#1B2129]
+}

@@ -4,6 +4,8 @@ import HomepageClasses from "./HomepageClasses";
 import AnimatedText from "./AnimatedText";
 import HpAbout from "./HpAbout";
 import Teams from "./Teams";
+import Benefits from "./Benefits";
+import Pricing from "./Pricing";
 
 const Homepage = () => {
   return(
@@ -13,6 +15,8 @@ const Homepage = () => {
       <AnimatedText/>
       <HpAbout/>
       <Teams subTitle={"Our Trainers"} Title={"We Trained You to Gain"}/>
+      <Benefits/>
+      <Pricing/>
     </div>
   )
 };export default Homepage;

@@ -1,0 +1,78 @@
+.BenefitsContainer{
+    @apply bg-[#524FF5] flex flex-col items-center justify-center w-full relative
+}
+.BenefitsContent{
+    @apply flex flex-col items-center justify-center w-full p-8
+    md:flex-row
+    lg:w-[90%] lg:p-10
+    xl:w-[80%] xl:p-20
+}
+
+.BenefitsLeft{
+    @apply flex flex-col items-center justify-center w-full
+    md:w-1/2;
+}
+.BenefitsRight{
+    @apply flex flex-col items-center justify-center w-full
+    md:w-1/2;
+}
+.BenefitsLSubTitle{
+    font-family: 'Inter';
+    @apply text-white text-base font-medium uppercase tracking-[0.3rem]
+}
+.BenefitsLTitle{
+    font-family: 'Inter';
+    @apply text-white text-3xl font-bold mt-2
+}
+.BenefitsLDesc{
+    font-family: 'Lato', sans-serif;
+    @apply text-white text-base font-medium mt-4 w-full
+    sm:w-[90%]
+    2xl:w-[70%]
+}
+.BenefitsImgControl{
+    @apply flex items-center justify-start w-full mt-8
+}
+.BenefitsImg{
+    @apply w-full h-auto object-contain
+    sm:w-[50%]
+    md:w-[80%]
+    lg:w-[70%]
+    xl:w-[60%]
+    2xl:w-[70%]
+}
+
+/***********/
+.BenefitsRItem{
+    @apply flex flex-col w-full mt-8
+}
+.BenefitsItemBtn{
+    font-family: 'Inter';
+    @apply flex flex-row items-center justify-center bg-[#1B2129] w-fit px-4 py-2
+    text-white text-xs font-medium uppercase
+}
+.BenefitsItemIcon{
+    @apply w-4 h-4 mr-2 fill-[#A1F65E]
+}
+.BenefitsItemText{
+    font-family: 'Inter';
+    @apply text-white text-sm font-medium mt-2
+}
+.BenefitsItemLine{
+    @apply w-full h-0.5 bg-[#C3C2FF] mt-5
+}
+
+/* Texto animado */
+.AnimatedTextContainerBenefits{
+    @apply flex justify-center items-center w-full bg-transparent py-2 overflow-hidden
+    md:py-3 md:absolute md:bottom-10
+}
+
+.AnimatedBoxBenfText{
+    @apply flex flex-row items-center justify-center w-full space-x-10
+}
+.TextAnimateBenefitImg{
+    @apply w-10 h-10 object-contain
+    md:w-20 md:h-20
+    xl:w-36 xl:h-36
+}
