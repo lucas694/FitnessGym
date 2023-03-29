@@ -1,0 +1,83 @@
+.BlogHpContainer{
+    @apply flex flex-col items-center justify-center p-6  w-full
+    md:p-10
+    lg:p-20
+}
+.BlogHpTitleControl{
+    @apply w-full
+}
+.BlogHpTitle{
+    font-family: 'Inter';
+    @apply text-4xl font-bold
+}
+.BlogHpContent{
+    @apply flex flex-col items-center justify-center w-full
+    md:w-[80%]
+    lg:w-[80%]
+    2xl:w-[60%]
+}
+.BlogHpPost{
+    @apply flex flex-col justify-center w-full p-0 mt-6
+    md:p-10 md:mt-10
+}
+.BlogHpPostDateControl{
+    @apply flex flex-row items-center
+}
+.BlogHpPostDate{
+    font-family: 'Lato', sans-serif;
+    @apply text-[#524FF5] mr-4 font-semibold text-xs
+    md:text-sm
+}
+.BlogHpPostTag{
+    font-family: 'Lato', sans-serif;
+    @apply text-black mr-4 font-semibold text-xs
+    md:text-sm
+}
+.BlogHpPostTitle{
+    font-family: 'Inter';
+    @apply text-black font-bold text-xl mt-2
+    md:text-2xl
+}
+.BlogHpPostDesc{
+    font-family: 'Inter';
+    @apply text-[#6A6A6A] font-medium text-sm w-full mt-2
+    md:w-[100%]
+    lg:w-[90%]
+    2xl:w-[80%]
+    md:text-base
+}
+.BlogHpPostBtnControl{
+    @apply w-full md:w-1/2 mt-5
+}
+
+/*alternative post*/
+.BlogHpPostAlternative{
+    background-image: url("../../assets/Homepage/BlogPostImg.png");
+    @apply flex flex-col justify-center w-full px-4 py-4 mt-6
+    sm:px-8 sm:py-10
+    md:p-10 md:mt-10
+    xl:px-10 xl:py-16
+    bg-center bg-cover bg-no-repeat
+}
+.BlogHpPostDateAlternative{
+    font-family: 'Lato', sans-serif;
+    @apply text-[#FFFFFF] mr-4 font-semibold text-xs
+    md:text-sm
+}
+.BlogHpPostTitleAlternative{
+    font-family: 'Inter';
+    @apply text-[#FFFFFF] font-bold text-xl mt-2
+    md:text-2xl
+}
+.BlogHpPostDescAlternative{
+    font-family: 'Inter';
+    @apply text-[#FFFFFF] font-medium text-sm w-full mt-2
+    md:w-[100%]
+    lg:w-[90%]
+    md:text-base
+}
+.BlogHpPostTagAlternative{
+    font-family: 'Lato', sans-serif;
+    @apply text-[#FFFFFF] mr-4 font-semibold text-xs
+    md:text-sm
+}

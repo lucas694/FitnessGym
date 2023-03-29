@@ -14,3 +14,8 @@
 .BtnBlack{
     @apply bg-[#1F242C] text-[#ffffff] font-semibold
 }
+.BtnWhite{
+    @apply bg-[#FFFFFF] text-black font-semibold text-base py-3 px-8 border-[#BABABA] border
+    transition-all duration-300 ease-in-out
+    hover:-translate-y-1 hover:scale-110 hover:bg-[#1B2129] hover:text-[#FFFFFF] hover:border-[#1B2129]
+}

@@ -1,5 +1,6 @@
 .PricingCardContainer{
-    @apply flex flex-col justify-center items-center w-[22rem] shadow-lg  p-6
+    @apply flex flex-col justify-center items-center w-[22rem] shadow-lg  p-6 mt-6
+    md:mt-0
 }
 /*header*/
 .PricingCardHeader{
