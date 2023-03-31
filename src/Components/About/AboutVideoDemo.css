@@ -1,0 +1,22 @@
+.AboutVideoDemoContainer{
+    @apply flex flex-row items-center justify-center w-full relative
+}
+.VideoDemoImg{
+    @apply w-full  object-cover h-auto
+    md:h-auto
+    xl:h-[700px]
+}
+
+/*Letters Animated*/
+.AnimatedTextContainerVideoDemo{
+    @apply flex justify-center items-center w-full bg-transparent py-2 overflow-hidden
+    md:py-3 absolute
+}
+.AnimatedBoxVideoDemo{
+    @apply flex flex-row items-center justify-center w-full space-x-10
+}
+.VideoDemoImgAnimated{
+    @apply w-10 h-10 object-contain
+    md:w-20 md:h-20
+    xl:w-36 xl:h-36
+}

@@ -1,0 +1,16 @@
+.CardValuesContainer{
+    @apply flex flex-col items-start justify-center p-8 bg-[#2C323A] w-[20em] border border-[#485059] rounded-lg
+    mt-4
+}
+.CardValueTitle{
+    font-family: 'Inter', sans-serif;
+    @apply text-xl font-semibold text-[#FFFFFF] tracking-widest mt-3
+}
+.CardValueDesc{
+    font-family: 'Lato', sans-serif;
+    @apply text-base font-normal text-[#BCBCBC] mt-2
+}
+.CardValuesIcon{
+    @apply w-10 h-10 object-contain
+    md:w-16 md:h-16
+}

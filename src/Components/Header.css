@@ -1,0 +1,25 @@
+.HeaderContainer{
+    @apply flex flex-row justify-between items-center p-4
+}
+.HeaderIconSec{
+    @apply flex flex-row justify-start items-center w-1/2;
+}
+.HeaderIcon{
+    @apply w-40  mr-4;
+}
+.HeaderMenuSec{
+    @apply flex flex-row justify-center items-center w-1/2;
+}
+.UlHeader{
+    @apply flex flex-row items-center
+}
+.NavLinkHeader{
+    @apply px-2 py-2 text-lg text-[#292930] font-semibold border-b-4 border-transparent mr-2
+    hover:border-[#1F242C]  transition-all duration-300 ease-in-out;
+}
+
+.NavLinkHeader:hover,
+.NavLinkHeader.active {
+    border-bottom-color: #1F242C;
+    transition: border-bottom-color 0.3s ease-in-out;
+}

@@ -1,0 +1,33 @@
+.AboutValuesContainer{
+    @apply flex flex-col items-center justify-center p-6 bg-[#1B2129] w-full
+    md:p-10
+    xl:p-20
+}
+.AboutValuesContent{
+    @apply flex flex-col items-center justify-center w-full
+    md:w-[90%]
+    2xl:w-[70%]
+}
+.AboutValuesSec{
+    @apply flex flex-col items-center justify-between w-full
+    md:flex-row
+}
+.AboutValuesSecLeft{
+    @apply flex flex-col items-start justify-center w-full
+    md:w-auto
+}
+.AboutValuesSecRight{
+    @apply flex flex-col justify-center w-full mt-6
+    md:w-auto md:mt-0
+}
+.AboutValuesSubTitle{
+    @apply text-base font-semibold text-[#A1F65E] tracking-widest uppercase
+}
+.AboutValuesTitle{
+    font-family: 'Inter';
+    @apply text-3xl font-bold text-[#FFFFFF]
+}
+.AboutValuesCardsContent{
+    @apply flex flex-col items-center justify-between w-full mt-6 flex-wrap
+    md:flex-row
+}
