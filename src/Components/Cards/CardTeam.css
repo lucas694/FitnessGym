@@ -1,5 +1,6 @@
 .CardTeamContainer{
     @apply flex flex-col items-center justify-center w-[20rem] mt-4
+    md:mt-14
 }
 .CardTeamImg{
     @apply w-auto h-auto object-cover

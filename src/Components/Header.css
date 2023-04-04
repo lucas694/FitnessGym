@@ -1,5 +1,5 @@
 .HeaderContainer{
-    @apply flex flex-row justify-between items-center p-4
+    @apply hidden md:flex flex-row justify-between items-center p-4
 }
 .HeaderIconSec{
     @apply flex flex-row justify-start items-center w-1/2;

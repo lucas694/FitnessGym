@@ -6,7 +6,7 @@ import Joshua from "../../assets/Cards/CardTeam/Joshua.png"
 
 
 const Teams = (props) => {
-  const {subTitle, Title,} = props;
+  const {subTitle, Title,cards} = props;
   const Cards = [
     {id:1, img:Amanda, name:"Amanda", specialitis:"Crossfit Expoort, Nutrition & Rehab", instagram:"#AmandaSocial", facebook:"#AmandaSocial"},
     {id:2, img:Madison, name:"Madison", specialitis:"Crossfit Expoort, Nutrition & Rehab", instagram:"#MadisonSocial", facebook:"#MadisonSocial", twitter:"#MadisonSocial"},
@@ -17,17 +17,7 @@ const Teams = (props) => {
       <h3 className={"TeamsSubTitle"}>{subTitle}</h3>
       <h1 className={"TeamsTitle"}>{Title}</h1>
       <div className={"TeamsCardsContent"}>
-        {Cards.map((card) => {
-          return(
-            <CardTeam key={card.id}
-                      img={card.img}
-                      name={card.name}
-                      specialitis={card.specialitis}
-                      instagram={card.instagram}
-                      facebook={card.facebook}
-                      twitter={card.twitter}
-            />
-          )})}
+        { cards }
       </div>
 
     </div>

@@ -1,0 +1,24 @@
+.ClassMainContainer{
+    @apply flex flex-col items-center justify-center w-full py-10
+    md:py-20
+}
+.ClassMainContent{
+    @apply flex flex-col items-center justify-between w-full px-6
+    md:w-[100%] md:px-0
+    xl:w-[90%]
+    2xl:w-[80%]
+}
+.ClassMainSubTitle{
+    @apply text-base font-semibold text-[#524FF5] tracking-widest uppercase
+}
+.ClassMainTitle{
+    font-family: 'Inter';
+    @apply text-3xl font-bold text-[#1C2129]
+}
+.ClassMainCardsContent{
+    @apply flex flex-col items-center justify-between w-[80%] mt-14 flex-wrap
+    md:w-[90%]
+    xl:w-[95%]
+    2xl:w-[90%]
+    lg:flex-row
+}

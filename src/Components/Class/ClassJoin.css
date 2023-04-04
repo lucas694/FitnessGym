@@ -1,0 +1,24 @@
+.ClassJoinContainer{
+    @apply hidden md:flex flex-col items-center justify-center w-full py-10
+}
+.ClassJoinContent{
+    @apply flex flex-col items-center justify-center w-[80%]
+}
+.ClassJoinMain{
+    background-image: url("../../assets/Class/Background Image.jpg");
+    @apply flex flex-col items-center justify-center w-full bg-cover bg-center bg-no-repeat rounded-2xl
+    md:h-[300px]
+    xl:h-[350px]
+}
+.ClassJoinTitle{
+    @apply text-2xl font-bold text-white
+    xl:text-3xl
+}
+.ClassJoinDesc{
+    @apply text-sm text-white mt-3 w-[70%] text-center
+    xl:text-base xl:mt-4 xl:w-[50%]
+}
+.ClassJoinBtnControl{
+    @apply mt-3
+    xl:mt-4
+}

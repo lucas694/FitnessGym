@@ -11,6 +11,7 @@ const HomepageClasses = () => {
     {id:1, img:ClassPilates, title:"Pilates Training", description:"Containing Lorem Ipsum passagesand more recently with"},
     {id:2, img:ClassAerobic, title:"Aerobic Training", description:"Containing Lorem Ipsum passagesand more recently with"},
     {id:3, img:CrossFit, title:"CrossFit Workout", description:"Containing Lorem Ipsum passagesand more recently with"},
+
   ]
   return(
     <div className={"HomepageClassContainer"}>

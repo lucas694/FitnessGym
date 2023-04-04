@@ -1,0 +1,34 @@
+.TrainerVideoContainer{
+    @apply flex flex-col items-center justify-center w-full py-10
+    md:py-20
+}
+.TrainerVideoText{
+    @apply flex flex-col items-center justify-center w-full text-center px-6
+    md:w-[80%] md:px-0
+}
+.TrainerSubTitle{
+    @apply text-base font-semibold text-[#524FF5] tracking-widest uppercase
+}
+.TrainerTitle{
+    font-family: 'Inter';
+    @apply text-3xl font-bold text-[#1C2129]
+}
+.TrainerDesc{
+    font-family: 'Inter';
+    @apply text-base font-medium text-[#6A6A6A] mt-4 w-full
+    xl:w-[50%]
+}
+.TrainerVideoContent{
+    @apply flex flex-col items-center justify-center w-full mt-4 p-6 bg-[#1C2128]
+    md:mt-8
+    xl:p-20
+}
+.TrainerVideoImg{
+    @apply w-[100%] h-auto object-cover
+    2xl:w-[80%]
+}
+
+.TrainerVideoBtnControl{
+    @apply flex flex-col items-center justify-center w-full mt-10 space-y-3
+    md:flex-row md:space-x-3 md:space-y-0
+}
