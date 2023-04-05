@@ -7,6 +7,7 @@ import About from "./Components/About/About";
 import Trainers from "./Components/Trainers/Trainers";
 import Class from "./Components/Class/Class";
 import HeaderMobile from "./Components/HeaderMobile";
+import Blog from "./Components/Blog/Blog";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path={"/About"} element={<About/>}/>
           <Route path={"/Class"} element={<Class/>}/>
           <Route path={"/Trainers"} element={<Trainers/>}/>
+          <Route path={"/Blog"} element={<Blog/>}/>
         </Routes>
         <Footer/>
       </Router>

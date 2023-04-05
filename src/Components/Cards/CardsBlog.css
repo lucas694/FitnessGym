@@ -1,0 +1,30 @@
+.CardBlogContainer{
+    @apply flex flex-col items-center justify-center w-[22em] p-4
+    lg:w-[18em]
+    xl:w-[22em]
+}
+.CardBlogImg{
+    @apply w-full object-cover
+}
+.CardBlogData{
+    @apply flex flex-row w-full mt-2 items-center justify-between
+}
+.CardBlogDataText{
+    @apply text-sm text-[#1B2129] font-bold font-medium
+}
+.CardBlogDate{
+    @apply text-sm text-[#524FF5] font-bold font-medium
+}
+.CardBlogTitle{
+    font-family: 'Inter';
+    @apply text-xl font-bold text-[#1C2129] text-start w-full mt-3
+}
+.CardBlogPoster{
+    @apply flex flex-row items-center mt-3 justify-start w-full
+}
+.CardBlogPosterImg{
+    @apply w-8 h-8 rounded-full object-cover mr-2
+}
+.CardBlogPosterName{
+    @apply text-sm text-[#1B2129] font-medium
+}

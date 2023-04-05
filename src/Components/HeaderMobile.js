@@ -10,7 +10,7 @@ const HeaderMobile = () => {
     setIsMenuOpen(!isMenuOpen);
   }
   return(
-    <div className={"HeaderMobileContainer"}>
+    <div className={isMenuOpen ? "HeaderMobileContainer2" : "HeaderMobileContainerDefault"}>
       <div className={isMenuOpen ? "hidden":"HeaderMobileIconSec"}>
         <img src={HeaderLogo} alt={"HeaderLogo"} className={"HeaderMobileIcon"}/>
       </div>

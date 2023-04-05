@@ -1,15 +1,20 @@
-.HeaderMobileContainer{
+.HeaderMobileContainerDefault{
     @apply flex flex-row justify-between items-center p-4
+    md:hidden
+}
+.HeaderMobileContainer2{
+    @apply flex flex-row justify-evenly items-center p-4
     md:hidden
 }
 .HeaderMobileIconSec{
     @apply flex flex-row justify-start items-center w-1/2;
 }
 .HeaderMobileIcon{
-   @apply w-36  mr-4;
+   @apply w-36  mr-4
+
 }
 .BtnMobileIcon{
-    @apply w-5 h-5
+    @apply w-5 h-5 hover:fill-[#353941]
 }
 .UlHeaderMenu{
     @apply flex flex-row items-center
@@ -17,10 +22,13 @@
 
 .NavLinkMobileHeader{
     @apply px-2 py-2 text-sm text-[#292930] font-semibold border-b-4 border-transparent mr-2
-    hover:border-[#1F242C]  transition-all duration-300 ease-in-out;
+    transition-all duration-300 ease-in-out;
 }
 
-.NavLinkMobileHeader:hover,
+.NavLinkMobileHeader:hover{
+    border-bottom-color:#353941;
+    transition: border-bottom-color 0.3s ease-in-out;
+}
 .NavLinkMobileHeader.active {
     border-bottom-color: #1F242C;
     transition: border-bottom-color 0.3s ease-in-out;
