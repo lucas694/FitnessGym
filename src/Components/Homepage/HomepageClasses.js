@@ -3,9 +3,7 @@ import BtnBase from "../Buttons/BtnBase";
 import CardClass from "../Cards/CardClass";
 import {getClassData} from "../Utils/Utils";
 
-
 const HomepageClasses = () => {
-
   const ClassData = getClassData();
   return(
     <div className={"HomepageClassContainer"}>
