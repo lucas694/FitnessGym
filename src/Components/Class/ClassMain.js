@@ -1,21 +1,10 @@
 import "./ClassMain.css";
-import ClassPilates from "../../assets/Cards/CardClass/ClassPilates.png";
-import ClassAerobic from "../../assets/Cards/CardClass/ClassAerobic.png";
-import CrossFit from "../../assets/Cards/CardClass/ClassCrossFit.png";
-import ClassYoga from "../../assets/Cards/CardClass/ClassYoga.png";
-import ClassBox from "../../assets/Cards/CardClass/ClassBox.png";
-import ClassDance from "../../assets/Cards/CardClass/ClassDance.png";
 import CardClass from "../Cards/CardClass";
+import {Link} from "react-router-dom";
+import {getClassData} from "../Utils/Utils";
 
 const ClassMain = () => {
-  const ClassData =[
-    {id:1, img:ClassPilates, title:"Pilates Training", description:"Containing Lorem Ipsum passagesand more recently with"},
-    {id:2, img:ClassAerobic, title:"Aerobic Training", description:"Containing Lorem Ipsum passagesand more recently with"},
-    {id:3, img:CrossFit, title:"CrossFit Workout", description:"Containing Lorem Ipsum passagesand more recently with"},
-    {id:4, img:ClassYoga, title:"Yoga As Therapy", description:"Containing Lorem Ipsum passagesand more recently with"},
-    {id:5, img:ClassBox, title:"Boxing", description:"Containing Lorem Ipsum passagesand more recently with"},
-    {id:6, img:ClassDance, title:"Energy Dance", description:"Containing Lorem Ipsum passagesand more recently with"},
-  ]
+  const ClassData = getClassData();
   return(
     <div className={"ClassMainContainer"}>
       <div className={"ClassMainContent"}>
@@ -25,7 +14,9 @@ const ClassMain = () => {
         <div className={"ClassMainCardsContent"}>
           {ClassData.map((item) => {
             return(
-              <CardClass key={item.id} img={item.img} title={item.title} description={item.description}/>
+              <Link to={`/class/${item.id}`} key={item.id}>
+                <CardClass key={item.id} img={item.img} title={item.title} description={item.description}/>
+              </Link>
             )
           })}
         </div>

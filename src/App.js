@@ -8,6 +8,7 @@ import Trainers from "./Components/Trainers/Trainers";
 import Class from "./Components/Class/Class";
 import HeaderMobile from "./Components/HeaderMobile";
 import Blog from "./Components/Blog/Blog";
+import TrainerDetails from "./Components/Trainers/TrainerDetails";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path={"/About"} element={<About/>}/>
           <Route path={"/Class"} element={<Class/>}/>
           <Route path={"/Trainers"} element={<Trainers/>}/>
+          <Route path={"/Trainers/:id"} element={<TrainerDetails/>}/>
           <Route path={"/Blog"} element={<Blog/>}/>
         </Routes>
         <Footer/>

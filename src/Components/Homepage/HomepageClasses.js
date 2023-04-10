@@ -1,18 +1,12 @@
 import "./HomepageClasses.css";
 import BtnBase from "../Buttons/BtnBase";
 import CardClass from "../Cards/CardClass";
-import ClassPilates from "../../assets/Cards/CardClass/ClassPilates.png";
-import ClassAerobic from "../../assets/Cards/CardClass/ClassAerobic.png";
-import CrossFit from "../../assets/Cards/CardClass/ClassCrossFit.png";
+import {getClassData} from "../Utils/Utils";
 
 
 const HomepageClasses = () => {
-  const ClassData =[
-    {id:1, img:ClassPilates, title:"Pilates Training", description:"Containing Lorem Ipsum passagesand more recently with"},
-    {id:2, img:ClassAerobic, title:"Aerobic Training", description:"Containing Lorem Ipsum passagesand more recently with"},
-    {id:3, img:CrossFit, title:"CrossFit Workout", description:"Containing Lorem Ipsum passagesand more recently with"},
 
-  ]
+  const ClassData = getClassData();
   return(
     <div className={"HomepageClassContainer"}>
       <div className={"HomepageClassContent"}>
@@ -25,7 +19,7 @@ const HomepageClasses = () => {
         </div>
 
         <div className={"HomepageClassCardsContent"}>
-          {ClassData.map((item) => {
+          {ClassData.slice(0, 3).map((item) => {
             return(
               <CardClass key={item.id} img={item.img} title={item.title} description={item.description}/>
             )
