@@ -4,12 +4,16 @@ import { getTrainersData} from "../Utils/Utils";
 import TrainersBanner from "./TrainersBanner";
 import {BsFacebook, BsInstagram, BsTwitter} from "react-icons/bs";
 import HomepageClasses from "../Homepage/HomepageClasses";
+import {useEffect} from "react";
 
 function TrainerDetails() {
   const { id } = useParams();
   const TrainersData = getTrainersData();
   const card = TrainersData.find(item => item.id === parseInt(id));
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className={"TrainersDetailsContainer"}>
       <TrainersBanner title={card.name}/>
